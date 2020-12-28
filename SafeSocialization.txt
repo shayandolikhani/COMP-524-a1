@@ -1,0 +1,66 @@
+@relation social-distancing-safety
+
+@attribute distance numeric
+@attribute duration numeric 
+@attribute exhalation numeric
+@attribute safe {true, false}
+@data
+13,30,30,true
+6,30,10,true
+27,30,50,true
+13,15,50,true
+13,120,10,true
+27,120,30,true
+6,15,30,true
+16,20,17,true
+17,35,13,false
+18,59,8,true
+7,24,39,false
+22,66,11,false
+17,22,24,true
+16,81,22,false
+28,14,36,false
+32,20,22,true
+12,96,27,false
+11,77,29,false
+16,21,16,true
+32,41,9,true
+21,85,9,true
+31,21,27,true
+18,75,35,false
+17,83,38,false
+20,85,20,false
+12,35,44,false
+18,52,13,false
+26,87,35,false
+10,67,36,false
+30,50,35,false
+29,58,20,true
+22,62,17,false
+22,92,17,false
+31,36,49,false
+30,101,25,true
+20,15,51,false
+20,55,13,false
+4,123,11,false
+5,84,20,false
+19,123,47,false
+18,98,51,false
+5,92,52,false
+25,59,49,false
+22,66,46,false
+14,15,16,true
+7,89,32,false
+28,73,45,false
+12,104,39,false
+28,111,22,true
+25,64,9,true
+16,38,10,true
+21,27,23,true
+9,15,18,true
+31,29,15,true
+25,104,8,true
+26,19,19,true
+29,45,10,true
+29,19,24,true
+26,105,8,true
